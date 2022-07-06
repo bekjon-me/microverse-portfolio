@@ -234,16 +234,22 @@
         that you need built or a project that needs coding. I’d love to help
         with it
       </p>
-      <form>
-        <input type="text" id="name" placeholder="Your name..." />
-        <input type="email" id="email" placeholder="Your email..." />
+      <form action="https://formspree.io/f/1" method="post">
+        <input
+          type="text"
+          id="name"
+          placeholder="Your name..."
+          max="30"
+          required
+        />
+        <input type="email" id="email" placeholder="Your email..." required />
         <textarea
           name="yourMessage"
-          cols="30"
-          rows="10"
           placeholder="Write your message here"
+          maxlength="500"
+          required
         ></textarea>
-        <button type="button">Get it Touch</button>
+        <button type="submit">Get it Touch</button>
       </form>
     </section>
   </body>
