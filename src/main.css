@@ -344,8 +344,8 @@ button {
 }
 
 .contact {
-  display: grid;
-  grid-template-columns: auto;
+  display: flex;
+  flex-direction: column;
   row-gap: 12px;
   margin-top: 114px;
   padding: 103px 24px 45px 24px;
@@ -359,8 +359,8 @@ button {
 
 .contact > form {
   margin-top: 15px;
-  display: grid;
-  grid-template-columns: auto;
+  display: flex;
+  flex-direction: column;
   row-gap: 20px;
 }
 
